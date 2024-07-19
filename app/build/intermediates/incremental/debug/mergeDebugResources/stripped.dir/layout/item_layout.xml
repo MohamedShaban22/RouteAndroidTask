@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                        
+
+    
+              
+                       
+                                                        
+           
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/item_background"
+        android:layout_marginHorizontal="8dp"
+        android:layout_marginVertical="10dp"
+        android:elevation="15dp"
+         android:tag="layout/item_layout_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+        <ImageView
+            android:id="@+id/product_img"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintHeight_percent="0.45"
+            android:tag="binding_1"         
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:elevation="5dp"
+
+            />
+        <ImageView
+            android:id="@+id/ic_favorite"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+           app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:src="@drawable/ic_favorite"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:layout_margin="7dp"
+            />
+
+        <TextView
+            android:id="@+id/brand_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/product_img"
+            android:textSize="12sp"
+            android:textColor="@color/blue"
+            android:layout_margin="8dp"
+            android:maxLength="26"
+            android:tag="binding_2"        
+            />
+        <TextView
+            android:id="@+id/product_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/brand_name"
+            android:textSize="12sp"
+            android:textColor="@color/blue"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="2dp"
+            android:maxLines="1"
+            android:maxLength="26"
+            android:tag="binding_3"        
+            />
+        <TextView
+            android:id="@+id/price_after"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/product_name"
+            app:layout_constraintBottom_toTopOf="@id/rating"
+            android:textSize="14sp"
+            android:textColor="@color/blue"
+            android:layout_margin="8dp"
+            android:tag="binding_4"              
+            />
+
+        <TextView
+            android:id="@+id/price_before"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toEndOf="@id/price_after"
+            app:layout_constraintTop_toBottomOf="@id/product_name"
+            android:layout_marginHorizontal="8dp"
+            android:layout_marginTop="12dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:textSize="11sp"
+            android:textColor="@color/blue"
+            android:text="@string/_1_000_egp"
+            />
+
+        <TextView
+            android:id="@+id/rating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:textSize="12sp"
+            android:textColor="@color/blue"
+            android:layout_margin="8dp"
+            android:textStyle="bold"
+            android:tag="binding_5"                 
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toEndOf="@id/rating"
+            app:layout_constraintTop_toTopOf="@id/rating"
+            app:layout_constraintBottom_toBottomOf="@id/rating"
+            android:layout_marginStart="10dp"
+            android:src="@drawable/ic_start"
+            />
+
+        <ImageView
+            android:id="@+id/add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/price_before"
+            android:layout_marginStart="10dp"
+            android:src="@drawable/ic_add"
+            android:layout_margin="10dp"
+            />
+
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+         

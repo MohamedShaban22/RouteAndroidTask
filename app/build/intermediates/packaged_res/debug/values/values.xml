@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="blue">#004182</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="_1_000_egp">
+        <strike>
+                    1,000 EGP
+        </strike>
+    </string>
+    <string name="app_name">RouteAndroidTask</string>
+    <style name="Base.Theme.RouteAndroidTask" parent="Theme.Material3.DayNight.NoActionBar">
+        
+         <item name="colorPrimary">@color/blue</item>
+        <item name="colorSecondary">@color/blue</item>
+    </style>
+    <style name="Theme.RouteAndroidTask" parent="Base.Theme.RouteAndroidTask"/>
+</resources>

@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\Users\\Mo.Sh\\.gradle\\daemon\\8.2\\com.example.routeandroidtask.app-mergeDebugResources-40:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\Mo.Sh\\.gradle\\daemon\\8.2\\com.example.routeandroidtask.app-main-43:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "com.example.routeandroidtask.app-mergeDebugResources-40:/layout/item_layout.xml",
+        "source": "com.example.routeandroidtask.app-main-43:/layout/item_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mo.Sh\\.gradle\\daemon\\8.2\\com.example.routeandroidtask.app-mergeDebugResources-40:\\layout\\item_layout.xml",
+        "source": "C:\\Users\\Mo.Sh\\.gradle\\daemon\\8.2\\com.example.routeandroidtask.app-main-43:\\layout\\item_layout.xml"
+    }
+]

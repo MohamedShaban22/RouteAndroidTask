@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">RouteAndroidTask</string>
+    <string name="_1_000_egp">
+        <strike >
+                    1,000 EGP
+        </strike>
+    </string>
+
+
+
+</resources>
